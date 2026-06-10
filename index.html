@@ -3,206 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mawaddatul Fadilah - Portfolio</title>
+    <title>Portfolio Mawaddatul Fadilah</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Navigation -->
+
+    <!-- Navbar -->
     <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Mawaddatul</div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Proyek</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+        <div class="logo">Mawaddatul Fadilah</div>
+
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+
+        <button id="theme-toggle">🌙</button>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Halo! Saya Mawaddatul Fadilah</h1>
-                <p class="hero-subtitle">Web Developer & Designer</p>
-                <p class="hero-description">Saya mengembangkan website yang indah dan fungsional dengan teknologi terkini</p>
-                <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+
+        <div class="hero-content">
+
+            <h1> <span>Mawaddatul Fadilah</span></h1>
+
+            <p class="hero-subtitle">
+                Mahasiswa Pendidikan Teknologi Informasi
+                Universitas Lampung
+            </p>
+
+            <p class="hero-description">
+                Saya tertarik pada pengembangan website,
+                desain UI/UX, serta teknologi pendidikan.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    Lihat Proyek
+                </a>
+
+                <a href="cv.pdf" download class="btn btn-secondary">
+                    Download CV
+                </a>
             </div>
-            <div class="hero-image">
-                <div class="avatar"></div>
-            </div>
+
         </div>
+
+        <div class="hero-image">
+            <img src="images/profil.jpg"
+                 alt="Foto Profil"
+                 class="profile-img">
+        </div>
+
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Tentang Saya</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Saya adalah seorang web developer yang passionate dalam menciptakan solusi digital yang inovatif dan user-friendly. Dengan pengalaman dalam front-end dan back-end development, saya siap membawa proyek Anda ke level berikutnya.</p>
-                    <p>Saya percaya bahwa desain yang baik adalah kombinasi dari estetika dan fungsionalitas yang sempurna.</p>
-                </div>
-                <div class="about-info">
-                    <div class="info-item">
-                        <i class="fas fa-code"></i>
-                        <h3>Clean Code</h3>
-                        <p>Menulis code yang rapi dan mudah dipelihara</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-mobile-alt"></i>
-                        <h3>Responsive Design</h3>
-                        <p>Website yang bekerja baik di semua perangkat</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-bolt"></i>
-                        <h3>Fast Performance</h3>
-                        <p>Website yang cepat dan optimal</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Tentang -->
+    <section id="about" class="section reveal">
+
+        <h2 class="section-title">Tentang Saya</h2>
+
+        <p>
+            Saya adalah mahasiswa Program Studi Pendidikan
+            Teknologi Informasi FKIP Universitas Lampung.
+            Saya memiliki minat dalam bidang pengembangan web,
+            desain antarmuka, dan teknologi digital.
+        </p>
+
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Keahlian</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>SQL</li>
-                        <li>REST API</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>VS Code</li>
-                        <li>Figma</li>
-                        <li>Firebase</li>
-                    </ul>
-                </div>
+    <!-- Skill -->
+    <section id="skills" class="section reveal">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>praktikum</h3>
+                <p>grafikom</p>
             </div>
+
+            <div class="skill-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>tugas quiz</h3>
+                <p>grafika komputer</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-tools"></i>
+                <h3>spreadheats</h3>
+                <p>grafika komputer</p>
+            </div>
+
         </div>
+
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Proyek Terbaru</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <h3>E-Commerce Platform</h3>
-                        <p>Platform e-commerce modern dengan fitur lengkap menggunakan React dan Node.js</p>
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
-                        </div>
-                        <a href="#" class="btn btn-small">Lihat Proyek</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <h3>Task Management App</h3>
-                        <p>Aplikasi manajemen tugas dengan real-time updates dan kolaborasi tim</p>
-                        <div class="project-tags">
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">Firebase</span>
-                        </div>
-                        <a href="#" class="btn btn-small">Lihat Proyek</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <h3>Blog Platform</h3>
-                        <p>Platform blogging dengan sistem komentar dan kategori yang dinamis</p>
-                        <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                        <a href="#" class="btn btn-small">Lihat Proyek</a>
-                    </div>
-                </div>
+    <!-- Proyek -->
+    <section id="projects" class="section reveal">
+
+        <h2 class="section-title">Proyek Kuliah</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Praktikum Three.js</h3>
+
+                <p>
+                    Visualisasi objek 3D menggunakan
+                    Three.js dan WebGL.
+                </p>
+
+                <a href="https://github.com/USERNAME/threejs"
+                   target="_blank"
+                   class="project-btn">
+                    Lihat Proyek
+                </a>
             </div>
+
+            <div class="project-card">
+                <h3>Website Portofolio</h3>
+
+                <p>
+                    Website portofolio pribadi menggunakan
+                    HTML, CSS dan JavaScript.
+                </p>
+
+                <a href="https://github.com/USERNAME/portfolio"
+                   target="_blank"
+                   class="project-btn">
+                    Lihat Proyek
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Sistem Informasi Sekolah</h3>
+
+                <p>
+                    Website pengelolaan data siswa dan guru.
+                </p>
+
+                <a href="https://github.com/USERNAME/sekolah"
+                   target="_blank"
+                   class="project-btn">
+                    Lihat Proyek
+                </a>
+            </div>
+
         </div>
+
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Hubungi Saya</h2>
-            <div class="contact-content">
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Nama Anda" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email Anda" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Pesan Anda" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-                </form>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>mawaddatulfadilah@email.com</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+62 123 4567 8900</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Indonesia</p>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
+    <!-- Kontak -->
+    <section id="contact" class="section reveal">
+
+        <h2 class="section-title">Kontak</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>mawaddatulfadilah21@gmail.com</p>
             </div>
+
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+62xxxxxxxxxxx</p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Lampung, Indonesia</p>
+            </div>
+
         </div>
+
+        <div class="social-links">
+
+            <a href="https://github.com/USERNAME">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+        </div>
+
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Mawaddatul Fadilah. All rights reserved.</p>
-        </div>
+    <footer>
+        <p>
+            © 2026 Mawaddatul Fadilah | Portfolio
+        </p>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
